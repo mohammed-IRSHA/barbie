@@ -1,0 +1,122 @@
+.container {
+    background-color: rgb(248, 249, 248);
+    height: 100vh;
+    position: relative;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar {
+    background-color: #94d4bf;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    align-items: center;
+    color: antiquewhite;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.nav_links ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.wapr {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 4rem 0px 4rem;
+}
+
+.btn {
+    margin-top: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-coolor;
+}
+
+.title {
+    color: #1fd655;
+}
+
+.img_container img {
+    width: 400px;
+    height: 250px;
+}
+
+.barbie {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.language {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 30px;
+
+}
+
+.HTML {
+
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    ;
+    border-radius: 5px;
+}
+
+.DSA {
+
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    ;
+    border-radius: 5px;
+}
+
+.javascript {
+
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    ;
+    border-radius: 5px;
+}
+.signup{
+   
+  
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.form{
+    padding: 20px 300px 20px 300px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.input{
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; ;
+}
+.content{
+    width: 300px;
+    margin-left: 300px;
+    padding-left: 10px;
+    
+}
